@@ -1,0 +1,36 @@
+.v:hover{
+    transform: scale(1.2);
+    border-radius: 50% !important;
+}
+
+.g:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.gamma:hover{
+    transform: scale(1.2) !important;
+}
+
+.lead{
+    font-size: 14px !important;
+}
+
+.delta{
+    transform: scale(1.2);
+}
+
+.delta:hover{
+
+  
+	animation: pulse 0.9s rotation !important;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

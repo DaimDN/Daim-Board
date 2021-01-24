@@ -1,0 +1,108 @@
+p{
+    margin-right: 40px;
+}
+
+.x:hover{
+    animation: newpulse 0.9s infinite !important;
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 2px #D1DAED;
+    padding: 20px 20px;
+   
+}
+
+.x{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px !important;
+    text-decoration: none !important;
+    margin-right: 35px;
+}
+
+.xactive{
+    transform: scale(1.3);
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 2px #D1DAED;
+    padding: 10px 20px;
+
+}
+
+.lead{
+    font-size: 8px !important;
+
+}
+
+.d:hover{
+    text-decoration: none !important;
+}
+
+.d{
+    font-size: 10px !important;
+}
+
+.delta{
+    animation: pulse 0.9s infinite !important;
+}
+
+.ndelta{
+    animation: npulse 0.9s infinite !important;
+}
+
+.delta:hover{
+
+  
+	animation: pulse 0.9s infinite !important;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		
+	}
+
+	70% {
+		transform: scale(1.2);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+@keyframes npulse {
+	0% {
+		transform: scale(1.1);
+		
+	}
+
+	70% {
+		transform: scale(1.3);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(1.1);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+
+@keyframes newpulse {
+	0% {
+		transform: scale(1.1);
+		
+	}
+
+	70% {
+		transform: scale(1.3);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(1.1);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
